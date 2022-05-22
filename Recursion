@@ -1,3 +1,5 @@
+//recursive program to solve tower of hanoi
+
 #include <stdio.h>
 
 int main()
@@ -17,3 +19,4 @@ void TOH(int n, char x, char y, char z){
         TOH(n-1,z,y,x);
     }
 }
+
